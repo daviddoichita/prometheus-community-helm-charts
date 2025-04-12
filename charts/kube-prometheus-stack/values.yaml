@@ -609,7 +609,7 @@ alertmanager:
     ##
     hosts:
       # - alertmanager.domain.com
-      - altermanager.ddragos.com
+      - alertmanager.ddragos.com
 
     ## Paths to use for ingress rules - one path should match the alertmanagerSpec.routePrefix
     ##
