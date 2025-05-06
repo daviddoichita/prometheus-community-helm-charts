@@ -609,7 +609,7 @@ alertmanager:
     ##
     hosts:
       # - alertmanager.domain.com
-      - alertmanager.ddragos.com
+      - alertmanager.ddragos.k8s.com
 
     ## Paths to use for ingress rules - one path should match the alertmanagerSpec.routePrefix
     ##
@@ -1275,7 +1275,7 @@ grafana:
     # hosts:
     #   - grafana.domain.com
     hosts:
-      - grafana.ddragos.com
+      - grafana.ddragos.k8s.com
 
     ## Path for grafana ingress
     path: /
